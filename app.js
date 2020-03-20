@@ -433,7 +433,109 @@ else
 //  console.log ( `you selected the color ${color}`)
 // }
 
-////Logical Operators
+////Logical Operators And (&&) , OR (||)
+
+// //And  in javascript is &&
+//// T and T ==> T
+//// T and F ==> F
+///  F and F ==> F
+
+// let name = 'Steve'
+// let age = 30;
+
+// if(age > 0 && age <= 12){
+//     console.log(`${name} is a child`);
+// }
+// else if (age >= 13 && age <= 19){
+//     console.log(`${name} is a teenager`);
+// }
+// else{
+//     console.log(`${name} is an adult`);
+// }
 
 
+// ////The logical operator Or (||)
+// //// T or T ==> T
+// //// T or F ==> T
+// ///  F or F ==> F
+// let age = 30;
+// let name = 'steve'
+// if(age < 16 || age > 65){
+//     console.log(`${name} cannot run in race.`);
+// }
+// else{
+//     console.log(`${name} is registered for the race.`);
+// }
 
+// ////TERNARY OPERATOR
+// //// (condition)?'doc smothing' : 'do smething else"
+
+// /// is the short for for if else statement.
+// let id = 50;
+// //long form
+// if(id == 50){
+//     console.log('valid')
+// }
+// else{
+//     console.log('invalid')
+// }
+// //short for ==> in a single lien
+
+// console.log((id == 50)?'valid':'invalid')
+
+//// Use Switches
+
+// let color = 'red';
+
+// switch(color)
+// {// switch starts here
+
+//     case 'red':
+//         console.log('You selected the red color');
+//         break;
+//     case 'blue':
+//         console.log('blue color');
+//         break;
+//     case 'black':
+//     console.log('blue black');
+//     break;
+//     default:
+//         console.log('Invalid color');
+//         break;
+// }// switch ends here
+
+// console.log('outside the switch ')
+
+// let day;
+// let currentDate = new Date();
+
+//  switch(currentDate.getDay()){
+
+//     case 0:
+//         day= 'Sunday'
+//         break;
+//         case 1:
+//         day= 'Monday'
+//         break;
+//         case 2:
+//         day= 'Tuesday'
+//         break;  
+//         case 5:
+//             day= 'Friday'
+//             break;          
+
+//  }
+//  console.log(`today is ${day}`)
+
+// General Loops
+
+// For Loop
+//  starting number ;  condition; increment 
+ for (let i = 0 ;i < 10; i++  )
+ {
+
+     console.log(`the value of index is ${i}`)
+
+ }
+
+  console.log('outside the for loop')
