@@ -346,6 +346,39 @@ console.table(person);
 
 
 
+/*
+if(condition)
+{
+
+    do something
+
+}
+else if( another condition)
+{
+    do something else
+}
+else
+{
+ do this
+
+}
+
+*/
+let id = 20;
+
+if(id ==10)
+{
+    console.log('Correct');
+
+
+}
+else
+{
+    console.error('Invalid id.')
+}
+
+
+
 
 
 
