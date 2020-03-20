@@ -364,25 +364,43 @@ else
 }
 
 */
-let id = 20;
-
-if(id ==10)
-{
-    console.log('Correct');
-
-
-}
-else
-{
-    console.error('Invalid id.')
-}
-
-
+////TEST EQUAL TO
+//// to test for equality use  == or ===
+//// a single equal sign is used to assign a value
+// let id = 20;
+// if(id ==10)
+// {
+//     console.log('Correct');
+// }
+// else
+// {
+//     console.error('Invalid id.')
+// }
 
 
+// //Not Equal To
+// ////  != means not equal to
+// let grade = 100;
+
+// if(grade  != 100 ){
+//     console.log('Invalid')
+// }
+// else{
+//     console.log('valid')
+// }
 
 
+// ////Equal to value and type
+// //// === validates both value and data type
+// let id = 100;// the data type of 100 is number
 
+// if(id === "100")// "100" is a string
+// {
+//     console.log("valid")
+// }
+// else{
+//     console.log('invalid')
+// }
 
 
 
