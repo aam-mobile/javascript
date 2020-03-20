@@ -388,7 +388,14 @@ else
 // else{
 //     console.log('valid')
 // }
+// let name= "jon";
+// let age = 30;
 
+// let html = `<ul>
+// <li> Name :${name}</li>
+// <li> Age : ${age}</li>
+// </ul>`
+// document.body.innerHTML= html
 
 // ////Equal to value and type
 // //// === validates both value and data type
@@ -403,8 +410,30 @@ else
 // }
 
 
+// ////Test for undefined
+// let id = 10 ;
+// console.log(typeof id);
+// if(id != undefined){
+//     console.log(`The ID is ${id}`)
+// }
+// else{
+//     console.error('invalid')
+// }
 
+// let color='red';
 
+// if(color == 'red'){
+//     console.log('The color is red.')
+// }
+// else if (color == 'blue'){
+//     console.log("The color is blue")
+// }
+// else
+// {
+//  console.log ( `you selected the color ${color}`)
+// }
+
+////Logical Operators
 
 
 
