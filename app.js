@@ -527,10 +527,52 @@ else
 //  }
 //  console.log(`today is ${day}`)
 
-// General Loops
+// ///=================================
+// //          Function Expression
+// //==================================
 
-// For Loop
-//  starting number ;  condition; increment 
+// const square =function (x) {  //<===========Declare the function 
+//     return x*x;
+// }
+
+// const result = square(6); //<============ must be invoked or execute the function
+
+// console.log(result);
+
+// ///=================================
+// //  Immidiatley Invokable function expressions  (IIFEs)
+// //==================================
+// (function()
+// {
+//     console.log('IIFE ran.')
+// }
+// )();
+// // //==================================
+// (function(x,y)
+// {
+//     console.log(x+y);
+// }
+// )(4,6);//<==========
+// // ///=================================
+// // //         Property Methods
+// // //==================================
+// // Declare car object
+// const car= {
+//     model:'',
+//     start:function () {
+//         console.log('start car.')
+//     },
+//     stop:function(key){
+//         console.log(`car stop ${key}`)
+//     }
+// }
+// // invoke the car object
+// car.start();
+// car.stop(125);
+///=================================
+//          General Loops
+//==================================
+//For Loop starting number ;  condition; increment 
  for (let i = 0 ;i < 10; i++  )
  {
 
@@ -539,3 +581,16 @@ else
  }
 
   console.log('outside the for loop')
+
+
+
+
+
+
+
+
+
+
+
+
+
