@@ -569,28 +569,92 @@ else
 // // invoke the car object
 // car.start();
 // car.stop(125);
-///=================================
-//          General Loops
-//==================================
-//For Loop starting number ;  condition; increment 
- for (let i = 0 ;i < 10; i++  )
- {
+// ///=================================
+// //          General Loops
+// //==================================
+// //For Loop starting number ;  condition; increment 
+//  for (let i = 0 ;i < 10; i++  )
+//  {
 
-     console.log(`the value of index is ${i}`)
+//      console.log(`the value of index is ${i}`)
 
- }
-
-  console.log('outside the for loop')
-
+//  }
+//   console.log('outside the for loop')
 
 
+//   for (let i = 2020 ;i >= 2000; i--  )
+//   {
+ 
+//       console.log(`the value of index is ${i}`)
+ 
+//   }
+ 
+//    console.log('outside the for loop')
 
 
 
+// for (let i = 2020 ;i >= 2000; i--  )
+// {
+//     if( i===2010){
+//         console.log(`the value of index is ${i}`)
+//     }   
+
+// }
+
+//  console.log('outside the for loop')
 
 
+// //=======================================
+// //==============While Loop=================
+// //========================================
+// let i = 20
+// while (i<10){//<============test condition first then execute later
+//     console.log(`the value of index is ${i}`)
+//      i =i+3
+// }
+ 
+// //=======================================
+// //==============Do While Loop=================
+// //========================================
+// let x = 20
+// do{ //<==========execute first then test condition later
+//     console.log(`the value of index is ${x}`)
+//      x =x+3
+// }
+// while(x<10)
 
+// Loop through arrays
 
+// const cars =['Ford', 'Chevy', 'Honda','Toyota','BMW']
 
+// for(let i = 0; i< cars.length; i++){
+//     console.log(cars[i]);
+// }
 
+// //=======================================
+// //==============FOREACH=================
+// // //========================================
+// const people =[
+//     {
+//         name:'smith',
+//         age:21
+//     },
+//     {
+//         name:'jon',
+//         age:21
+//     },
+//     {
+//         name:'steve',
+//         age:21
+//     }
+// ]
+
+// const cars =['Ford', 'Chevy', 'Honda','Toyota','BMW']
+// cars.forEach(function (item,index) {
+//     console.log(`the index is ${index} and value is ${item}`)
+// })
+
+// people.forEach(function(person,index){
+// console.log(person.name)
+// })
 
