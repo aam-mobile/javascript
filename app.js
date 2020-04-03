@@ -1,112 +1,131 @@
-// //==================================================//
-// //          DOM Selector For Single Elements
-// //=================================================//
-// // const taskTitle =  document.getElementById('task-title');
-// // console.log(taskTitle);
-// // console.log(taskTitle.id);
-// // console.log(taskTitle.className);
+// // // //==================================================//
+// // // //          DOM Selector For Single Elements
+// // // //=================================================//
+// // // // const taskTitle =  document.getElementById('task-title');
+// // // // console.log(taskTitle);
+// // // // console.log(taskTitle.id);
+// // // // console.log(taskTitle.className);
 
-// // // Change Styling
-// // taskTitle.style.background= 'maroon';
-// // taskTitle.style.color = 'white';
-// // taskTitle.style.padding = '5px';
-// // taskTitle.style.display = 'block'
+// // // // // Change Styling
+// // // // taskTitle.style.background= 'maroon';
+// // // // taskTitle.style.color = 'white';
+// // // // taskTitle.style.padding = '5px';
+// // // // taskTitle.style.display = 'block'
 
-// // // Change Content
+// // // // // Change Content
 
-// // taskTitle.textContent = 'My Tasks';
-// // taskTitle.innerHTML = "<ul><li>My New Tasks</li></ul>";
-// // taskTitle.innerText = "My Inner Html"
+// // // // taskTitle.textContent = 'My Tasks';
+// // // // taskTitle.innerHTML = "<ul><li>My New Tasks</li></ul>";
+// // // // taskTitle.innerText = "My Inner Html"
 
-// // // Query Selectors
+// // // // // Query Selectors
 
-// // let ctrl = document.querySelector('#task-title');
+// // // // let ctrl = document.querySelector('#task-title');
 
-// // ctrl = document.querySelector('.card-action');
+// // // // ctrl = document.querySelector('.card-action');
 
-// // //ctrl.style.background ='red';
+// // // // //ctrl.style.background ='red';
 
-// // ctrl = document.querySelector('h5');
+// // // // ctrl = document.querySelector('h5');
 
-// // //ctrl.style.background = 'red';
+// // // // //ctrl.style.background = 'red';
 
-// // ctrl = document.querySelector('li');
-// // //ctrl.style.background = 'red';
+// // // // ctrl = document.querySelector('li');
+// // // // //ctrl.style.background = 'red';
 
-// // //console.log(ctrl);
-
-
-// // document.querySelector('ul li').style.color= 'red';
-// // document.querySelector('li:last-child').style.color = 'yellow';
-// // document.querySelector('li:nth-child(3)').style.color = 'brown';
-
-// // document.querySelector('li:nth-child(4)').textContent = 'My new List Item';
-
-// // document.querySelector('li:nth-child(odd)').style.background = 'gray';
-// // document.querySelector('li:nth-child(even)').style.background = 'silver';
+// // // // //console.log(ctrl);
 
 
-// //==================================================//
-// //          DOM Selector For Multiple Elements
-// //=================================================//
+// // // // document.querySelector('ul li').style.color= 'red';
+// // // // document.querySelector('li:last-child').style.color = 'yellow';
+// // // // document.querySelector('li:nth-child(3)').style.color = 'brown';
 
-// let val;
+// // // // document.querySelector('li:nth-child(4)').textContent = 'My new List Item';
 
-// const list = document.querySelector('ul.collection');
-// const listItem = document.querySelector('li.collection-item:first-child')
+// // // // document.querySelector('li:nth-child(odd)').style.background = 'gray';
+// // // // document.querySelector('li:nth-child(even)').style.background = 'silver';
 
 
-// val = list;
-// val = listItem;
+// // // //==================================================//
+// // // //          DOM Selector For Multiple Elements
+// // // //=================================================//
 
-// // val = list.childNodes;
-// // val = list.childNodes[0];
-// // val = list.childNodes[0].nodeName;
-// // val = list.childNodes[3].nodeType;
-// // 1 - Element
-// //2 - Attribute
-// // 3 - Text node
-// // 8 - Comment
-// // 9 -  Document itself
+// // // let val;
 
-// // Get Children nodes
+// // // const list = document.querySelector('ul.collection');
+// // // const listItem = document.querySelector('li.collection-item:first-child')
 
-// // val = list.children;
-// // val = list.children[1];
-// // list.children[2].textContent = 'changed';
-// // // Children of children
-// // list.children[3].children[0].id = 'test'
 
-// val = list.lastChild;
+// // // val = list;
+// // // val = listItem;
 
-// val = list.lastElementChild;
+// // // // val = list.childNodes;
+// // // // val = list.childNodes[0];
+// // // // val = list.childNodes[0].nodeName;
+// // // // val = list.childNodes[3].nodeType;
+// // // // 1 - Element
+// // // //2 - Attribute
+// // // // 3 - Text node
+// // // // 8 - Comment
+// // // // 9 -  Document itself
 
-// val = list.childElementCount
+// // // // Get Children nodes
 
-// val = listItem.parentNode;
+// // // // val = list.children;
+// // // // val = list.children[1];
+// // // // list.children[2].textContent = 'changed';
+// // // // // Children of children
+// // // // list.children[3].children[0].id = 'test'
 
-// val = listItem.nextSibling;
-// val = listItem.nextElementSibling;
+// // // val = list.lastChild;
 
-// val = listItem.previousElementSibling
+// // // val = list.lastElementChild;
+
+// // // val = list.childElementCount
+
+// // // val = listItem.parentNode;
+
+// // // val = listItem.nextSibling;
+// // // val = listItem.nextElementSibling;
+
+// // // val = listItem.previousElementSibling
  
-// console.log(val)
+// // // console.log(val)
 
-// //==================================================//
-// //          Create Elements
-// //=================================================//
+// // // //==================================================//
+// // // //          Create Elements
+// // // //=================================================//
 
-const li = document.createElement('li');
-li.className = 'collection-item';
-li.id = 'new-item';
-li.setAttribute('title','My new Item');
-li.appendChild(document.createTextNode('Hello'));
+// // const li = document.createElement('li');
+// // li.className = 'collection-item';
+// // li.id = 'new-item';
+// // li.setAttribute('title','My new Item');
+// // li.appendChild(document.createTextNode('Hello'));
 
-const link = document.createElement('a');
-link.className = 'delete-item secondary-content';
-link.innerHTML = '<i class="fa fa-remove"></i>';
-li.appendChild(link);
-const list = document.querySelector('ul.collection');
+// // const link = document.createElement('a');
+// // link.className = 'delete-item secondary-content';
+// // link.innerHTML = '<i class="fa fa-remove"></i>';
+// // li.appendChild(link);
+// // const list = document.querySelector('ul.collection');
 
-list.appendChild(li);
+// // list.appendChild(li);
 
+// // // //==================================================//
+// // // //          Replace and Remove Elements
+// // // //=================================================//
+// const heading = document.createElement('h2');
+
+// heading.id = 'task-title';
+// heading.appendChild(document.createTextNode('My New Tasks'));
+// //Get old h2 tag
+
+// const oldHeading = document.getElementById('task-tile');
+// // Get Parent
+
+// const divCard =  document.querySelector('.card-action');
+
+// console.log(heading);
+
+// // Replace
+
+// //divCard.replaceChild(heading,oldHeading);
